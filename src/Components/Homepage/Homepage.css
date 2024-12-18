@@ -1,0 +1,42 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000;
+}
+
+.greeting {
+    display: flex;
+    align-items: first baseline;
+    padding-top: 3px;
+}
+
+.profile-picture {
+    width: 50px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    padding-top: 3px;
+}
+
+.star-rating {
+    width: 20px;
+}
+
+.greeting p, .rating p {
+    padding-left: 5px;
+}
+
+/* Wallet */
+.wallet {
+    background-color: #002B5C;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 20px;
+    color: #ffffff;
+}
