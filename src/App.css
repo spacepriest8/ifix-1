@@ -10,3 +10,12 @@ body {
   padding: 1rem;
 }
 
+
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .container {
+    padding: 3rem;
+  }
+
+}
