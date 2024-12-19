@@ -1,0 +1,12 @@
+/* Search */
+.search-bar {
+    background-color: #FF6F00;
+    padding: 0.8rem 1.2rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.search-bar img {
+    width: 20px;
+}

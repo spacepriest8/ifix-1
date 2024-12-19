@@ -42,7 +42,7 @@ const Homepage = () => {
             </div>       
         </div>
 
-        <div className='search'> <img src={search_icon}/> </div>
+        <div className='search-bar'> <img src={search_icon}/> </div>
 
         <div className='workers-list'>
             <div className='worker-info'>

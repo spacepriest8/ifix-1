@@ -10,20 +10,20 @@ const Navbar = () => {
   return (
         <div className='nav'>
             <ul className='nav-list'>
-                <li>
-                    <img src={home_icon} alt="Home" />
+                <li className='home'>
+                    <span className='icon'></span>
                     <p>Home</p>
                 </li>            
-                <li>
-                    <img src={search_icon} alt="Search" />
+                <li className='search'>
+                    <span className='icon'></span>
                     <p>Search</p>
                 </li>
-                <li>
-                    <img src={job_icon} alt="Create Job" />
+                <li className='create-job'>
+                    <span className='icon'></span>
                     <p>Create Job</p>
                 </li>
-                <li>
-                    <img src={profile_icon} alt="Profile" />
+                <li className='profile'>
+                    <span className='icon'></span>
                     <p>Profile</p>
                 </li>
             </ul>
