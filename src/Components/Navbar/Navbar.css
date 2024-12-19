@@ -12,6 +12,7 @@
     font-size: 0.75rem;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
+    z-index: 10;
 }
 
 .nav-list li {
@@ -55,17 +56,21 @@
 
 .home:hover .icon {
     background-image: url('../../assets/home-icon-colored.png'); 
+    cursor: pointer;
 }
 
 .search:hover .icon {
     background-image: url('../../assets/search-icon-colored.png'); 
+    cursor: pointer;
 }
 
 .create-job:hover .icon {
-    background-image: url('../../assets/home-icon-colored.png'); 
+    background-image: url('../../assets/create-job-icon-colored.png'); 
+    cursor: pointer;
 }
 
 .profile:hover .icon {
-    background-image: url('../../assets/home-icon-colored.png'); 
+    background-image: url('../../assets/profile-icon-colored.png'); 
+    cursor: pointer;
 }
 

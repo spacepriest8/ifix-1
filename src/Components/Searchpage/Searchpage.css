@@ -4,9 +4,68 @@
     padding: 0.8rem 1.2rem;
     border-radius: 20px;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 18px;
 }
 
 .search-bar img {
-    width: 20px;
+    width: 25px;
+}
+
+/* Filter */
+.filter {
+    padding: 0.8rem 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.search-bar img {
+    width: 25px;
+}
+
+
+/* Catogories */
+.category {
+    margin: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    /* padding-bottom: 5rem; */
+    position: relative;
+}
+
+.title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.options {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.option:hover {
+    color: #FF6F00;
+    cursor: pointer;
+}
+
+.search.button{
+    scroll-margin-bottom: 150px;
+    /* margin-bottom: 100px; */
 }

@@ -13,4 +13,20 @@ body{
   width: 100%;
   background: linear-gradient(to right, #ffb347, #ff5722);
   text-align: center; 
+  padding: 0.75rem;
+  border-radius: 20px;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
+  transition: all 0.5s ease-in-out;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:active {
+  background: #ff5722;
 }
