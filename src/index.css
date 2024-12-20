@@ -30,3 +30,19 @@ body{
 .button:active {
   background: #ff5722;
 }
+
+button {
+  cursor: pointer;
+}
+
+/* Hide scrollbar for a container */
+@media screen and (max-width: 768px) {
+  .container {
+    overflow-y: scroll;
+    scrollbar-width: none; /* For Firefox */
+  }
+
+  .container::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+  }
+}
